@@ -47,7 +47,9 @@ const deleteData = async () => {
     console.log(err);
   }
   process.exit();
-};
+};  
+
+//node filename --import
 
 if (process.argv[2] === '--import') {
   importData();
